@@ -1,0 +1,112 @@
+/* 全局样式 */
+body {
+    font-family: '微软雅黑', sans-serif; /* 更具吸引力的字体 */
+    background-color: #f4f4f9; /* 背景颜色 */
+    color: #333333; /* 文本颜色 */
+}
+
+#main-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white; /* 内容背景颜色 */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#assignment-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#assignment-links ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#assignment-links a {
+    text-decoration: none; /* 删除链接下划线 */
+    color: #007bff; /* 链接颜色 */
+}
+
+#assignment-links a:hover {
+    color: #0056b3;
+}
+
+/* Assignment 2 页面样式 */
+.content {
+    max-width: 800px;
+    margin: auto;
+    background-color: white; /* 内容背景色 */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333333; /* 导航背景色 */
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #555555;
+}
+
+/* 图片样式 */
+.image-style {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 表格样式 */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+

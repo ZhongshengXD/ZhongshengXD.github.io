@@ -1,47 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Portal</title>
+    <title>Assignment and Project Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>CSCE 242: Client-Server Computing Assignments</h1>
+        <h1>CSCE 242: Client-Server Computing</h1>
         <h2>Zhongsheng Li</h2>
     </header>
-    
-    <main>
-        <section class="assignment" id="assignment1">
-            <a href="assignments/assignment1/assignment1.html">
-                <img src="./assignments/img/WechatIMG16.jpg" alt="Assignment 1 Screenshot">
-            </a>
-            <div class="description">
-                <h3>Assignment 1 - Basic HTML</h3>
-                <p>Unique description of Assignment 1.</p>
-            </div>
-        </section>
 
-        <section class="assignment" id="assignment2">
-            <a href="assignments/assignment2/assignment2.html"><img src="assignments/img/WechatIMG17.jpg" alt="Assignment 2 Screenshot"></a>
-            <div class="description">
-                <h3>Assignment 2 - Basic CSS</h3>
-                <p>Unique description of Assignment 2.</p>
-            </div>
-        </section>
+    <div class="container">
+        <aside class="sidebar">
+            <!-- Sidebar navigation for assignments and projects -->
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#assignments-section">Assignments</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-        <section class="assignment" id="assignment3">
-            <a href="assignments/assignment3/assignment3.html"><img src="assignments/img/WechatIMG18.jpg" alt="Assignment 3 Screenshot"></a>
-            <div class="description">
-                <h3>Assignment 3 - Page layout</h3>
-                <p>Unique description of Assignment 3.</p>
-            </div>
-        </section>
-    </main>
+        <main class="content">
+            <h2>Assignments</h2>
+            <!-- Assignments section -->
+            <section id="assignments-section">
+                <div class="assignment" id="assignment1">
+                    <a href="assignments/assignment1/assignment1.html">
+                        <img src="./assignments/img/WechatIMG16.jpg" alt="Assignment 1 Screenshot">
+                    </a>
+                    <div class="description">
+                        <h3>Assignment 1 - Basic HTML</h3>
+                        <p>Unique description of Assignment 1.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="assignments-section">
+                <div class="assignment" id="assignment1">
+                    <a href="assignments/assignment2/assignment2.html"><img src="assignments/img/WechatIMG17.jpg"
+                            alt="Assignment 2 Screenshot"></a>
+                    <div class="description">
+                        <h3>Assignment 2 - Basic CSS</h3>
+                        <p>Unique description of Assignment 2</p>
+                    </div>
+                </div>
+            </section>
+            <section id="assignments-section">
+                <div class="assignment" id="assignment1">
+                    <a href="assignments/assignment3/assignment3.html"><img src="assignments/img/WechatIMG18.jpg"
+                            alt="Assignment 3 Screenshot"></a>
+                    <div class="description">
+                        <h3>Assignment 3 - Page layout</h3>
+                        <p>Unique description of Assignment 3.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="assignments-section">
+                <div class="assignment" id="assignment1">
+                    <a href="assignments/assignment5/index.html">
+                        <img src="assignments/img/a5.png" alt="Assignment 5 Screenshot">
+                    </a>
+                    <div class="description">
+                        <h3>Assignment 5 - Recreate CSS Page</h3>
+                        <p>Unique description of Assignment 5.</p>
+                    </div>
+                </div>
+            </section>
 
-    <footer>
-        <p>More assignments will be added here as the course progresses.</p>
-    </footer>
+
+            <!-- Projects section -->
+            <section id="projects-section">
+                <h2>Projects</h2>
+                <!-- Projects details will be added here -->
+                <p>More assignments and projects will be added here as the course progresses.</p>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>

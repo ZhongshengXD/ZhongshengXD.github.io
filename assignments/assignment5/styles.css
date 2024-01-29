@@ -1,0 +1,86 @@
+/* Add reset styles if needed */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fd0000; /* Use Colorzilla to get the exact color */
+    padding: 10px;
+    color: white;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  article {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  article img {
+    margin-right: 20px;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* ... 其他样式 ... */
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #f77575; /* 侧边栏背景颜色 */
+  padding: 20px;
+}
+
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-nav a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333; /* 导航链接颜色 */
+}
+
+main {
+  flex: 3; /* 主内容区占据更多空间 */
+  padding: 20px;
+}
+
+/* 适应小屏幕 */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    order: -1; /* 使侧边栏在小屏幕上显示在顶部 */
+  }
+}
+
+/* ... 更多样式 ... */
+
+  

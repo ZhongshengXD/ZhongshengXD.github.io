@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7 - JavaScript, Buttons, Functions, and More</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <h1>Assignment 7 - JavaScript, Buttons, Functions, and More</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="column" id="image-change">
+                <p>change Image</p>
+                <!-- Clickable image that changes on click -->
+                <img src="image1.png" alt="Changeable Image" id="changeable-image" onclick="changeImage()">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quam voluptatum, expedita nihil
+                    nisi deserunt, sint maiores enim ipsam, aperiam pariatur dicta repellat reiciendis quos ipsum
+                    quaerat labore minus quibusdam.</p>
+            </div>
+
+            <div class="column" id="image-rotate">
+                <p>rotate Image</p>
+                <!-- Clickable image that changes on click -->
+                <img src="image1.png" alt="Changeable Image" id="rotate-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quam voluptatum, expedita nihil
+                    nisi deserunt, sint maiores enim ipsam, aperiam pariatur dicta repellat reiciendis quos ipsum
+                    quaerat labore minus quibusdam.</p>
+                <!-- Slider to rotate the image -->
+                <input type="range" min="0" max="360" value="0" id="image-rotate-slider" oninput="rotateImage()">
+            </div>
+
+            <div class="column" id="star-column" onclick="addStar()">
+                <p>add star</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+<script>
+    var currentImage = 1;
+
+    function changeImage() {
+        // Toggle between image1 and image2
+        var imagePath = currentImage === 1 ? "image2.png" : "image1.png";
+        document.getElementById('changeable-image').src = imagePath;
+        currentImage = currentImage === 1 ? 2 : 1;
+    }
+
+    function rotateImage() {
+        // Rotate the image according to the slider's value
+        var slider = document.getElementById('image-rotate-slider');
+        var rotation = slider.value;
+        document.getElementById('rotate-image').style.transform = `rotate(${rotation}deg)`;
+    }
+
+    function addStar() {
+        // Add a star image to the star column on click
+        var starColumn = document.getElementById('star-column');
+        var starImage = document.createElement('img');
+        starImage.src = 'star.png'; // Ensure you have a 'star.png' image
+        starImage.style.width = '20px'; // Adjust as needed
+        starColumn.appendChild(starImage);
+    }
+
+</script>
+
+
+</html>

@@ -85,3 +85,9 @@ footer {
     border-radius: 5px; /* Optional: if you want rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: if you want a shadow for some depth */
 }
+
+
+iframe {
+    width: 76%;
+    height: 800px;
+}

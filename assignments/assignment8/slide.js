@@ -9,16 +9,16 @@ let slideToImagePosition = {
     7: '92% 87%'
 };
 
-let container = document.getElementById('slideImageContainer');
 
 
 function slide() {
     let slider = document.getElementById('slider');
-    let rotation = slider.value;
-    console.log(rotation);
+    let value = slider.value;
+    let container = document.getElementById('slideImageContainer');
 
-    if (slideToImagePosition[rotation] !== undefined) {
-        container.style.backgroundPosition = slideToImagePosition[rotation];
+
+    if (slideToImagePosition[value] !== undefined) {
+        container.style.backgroundPosition = slideToImagePosition[value];
     }
 }
 

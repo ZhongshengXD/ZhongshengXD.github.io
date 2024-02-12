@@ -59,6 +59,10 @@ h2 {
     margin-top: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Footer styles */
 footer {
     text-align: center;

@@ -1,0 +1,40 @@
+.section-title {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    margin-bottom: 1rem; /* 16px */
+  }
+  
+  .messages-container {
+    margin-top: 1.5rem;
+  }
+  
+  .message {
+    display: flex;
+    align-items: start;
+    gap: 1rem; /* 16px between star icon and message content */
+  }
+  
+  .star-icon {
+    color: #9ca3af; /* Tailwind text-gray-400 */
+    font-size: 1.5rem; /* 24px, representing h-6 w-6 */
+    line-height: 1; /* Aligns the icon vertically with the text */
+  }
+  
+  .message-content {
+    flex: 1;
+  }
+  
+  .message-author {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 600;
+    margin-bottom: 0.25rem; /* 4px */
+  }
+  
+  .message-textarea {
+    width: 100%;
+    padding: 0.5rem; /* 8px */
+    border: 1px solid #e2e8f0; /* Tailwind border */
+    border-radius: 0.375rem; /* Tailwind rounded */
+    height: auto; /* Adjust based on content */
+  }
+  

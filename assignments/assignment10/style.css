@@ -1,0 +1,64 @@
+.content-container {
+  margin: auto;
+  padding: 32px;
+  background-color: #e5dfcb;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+}
+
+h1.title {
+  text-align: center;
+  color: lightblue;
+}
+
+h2.subtitle {
+  text-align: center;
+  color: lightcoral;
+}
+
+.ad-continue {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  border: 1px solid black;
+  color: rgb(109, 145, 158);
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: c;
+}
+
+.view-container {
+  text-align: center;
+  background-color: #d4c9a1;
+}
+
+.description {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.image-section {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}

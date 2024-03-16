@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPath</title>
+    <link href="static/css/home.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>GreenPath</h1>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tips.html">Green Tips</a></li>
+                    <li><a href="community.html">Community Forum</a></li>
+                    <li><a href="product.html"  class="ellipsis">Environmentally Friendly Products</a></li>
+                    <li><a href="contact.html">Tell us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section-intro">
+                <img src="static/img/icon.webp"
+                    alt="Placeholder" class="intro-img" />
+                <div>
+                    <h2>Home</h2>
+                    <p>Environmentally Friendly Products</p>
+                </div>
+                <button class="tell-us-btn">Tell us</button>
+            </section>
+            <section class="slideshow-section">
+                <div class="slideshow">
+                    <img src="static/img/home-slideShow1.webp" class="mySlides">
+                    <img src="static/img/home-slideShow2.webp" class="mySlides">
+                    <img src="static/img/home-slideShow1.webp" class="mySlides">
+                    <button class="prev" onclick="plusSlides(-1)">❮</button>
+                    <button class="next" onclick="plusSlides(1)">❯</button>
+                </div>
+            </section>
+            <section>
+                <div class="video-container">
+                    <video controls width="100%" height="100%">
+                        <source src="static/video/flower.webm" type="video/webm">
+                    </video>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+<script src="static/js/home.js"></script>
+<script src="static/js/hambuger.js"></script>
+</html>

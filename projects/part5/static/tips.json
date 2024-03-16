@@ -1,0 +1,75 @@
+{
+    "green_tips": [{
+            "id": 1,
+            "title": "How to Reduce Your Carbon Footprint",
+            "image": "static/img/tips1.webp",
+            "description": "Discover simple ways to make your day-to-day life more eco-friendly and help lower your carbon emissions.",
+            "author": "zhongsheng",
+            "publish_date": "2024-03-16",
+            "score": 2
+        },
+        {
+            "id": 2,
+            "title": "Eco-friendly Household Products",
+            "image": "static/img/tips2.webp",
+            "description": "Learn about sustainable alternatives to common household items that can help you live a greener lifestyle.",
+            "author": "zhongsheng",
+            "publish_date": "2024-03-16",
+            "score": 3
+        },
+        {
+            "id": 3,
+            "title": "Energy Efficiency at Home",
+            "image": "static/img/tips3.webp",
+            "description": "Find out how to lower your energy consumption and utility bills by making your home more energy-efficient with LED lighting, smart thermostats, and energy-saving appliances.",
+            "author": "zhongsheng",
+            "publish_date": "2024-03-16",
+            "score": 5
+        },
+        {
+            "id": 4,
+            "title": "Sustainable Eating Habits",
+            "image": "static/img/tips4.webp",
+            "description": "Explore how choosing local, organic foods and reducing meat consumption can significantly impact the environment, promoting a healthier planet and lifestyle.",
+            "author": "zhongsheng",
+            "publish_date": "2024-03-16",
+            "score": 4.5
+        },
+        {
+            "id": 5,
+            "title": "Eco-Friendly Transportation Choices",
+            "image": "static/img/tips5.webp",
+            "description": "Learn about the benefits of green transportation options such as cycling, walking, carpooling, and electric vehicles to reduce pollution and conserve resources.",
+            "author": "zhongsheng",
+            "publish_date": "2024-03-16",
+            "score": 5
+        },
+        {
+            "id": 6,
+            "title": "Minimizing Plastic Use",
+            "image": "static/img/tips6.webp",
+            "description": "Discover practical tips for reducing plastic waste in your daily life, from shopping with reusable bags to choosing products with minimal packaging.",
+            "author": "zhongsheng",
+            "publish_date": "2024-03-16",
+            "score": 3.5
+        },
+        {
+            "id": 7,
+            "title": "Benefits of Composting",
+            "image": "static/img/composting.jpg",
+            "description": "Learn about the advantages of composting organic waste materials for your garden and the environment.",
+            "author": "ChatGPT",
+            "publish_date": "2024-03-17",
+            "score": 4
+        },
+        {
+            "id": 8,
+            "title": "Rainwater Harvesting Techniques",
+            "image": "static/img/rainwater_harvesting.jpg",
+            "description": "Discover various methods for collecting and storing rainwater to conserve water resources and support sustainable living.",
+            "author": "ChatGPT",
+            "publish_date": "2024-03-17",
+            "score": 5
+        }
+    ]
+}

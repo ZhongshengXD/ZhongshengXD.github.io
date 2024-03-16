@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPath</title>
+    <link href="static/css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>GreenPath</h1>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tips.html">Green Tips</a></li>
+                    <li><a href="community.html">Community Forum</a></li>
+                    <li><a href="product.html"  class="ellipsis">Environmentally Friendly Products</a></li>
+                    <li><a href="contact.html">Tell us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section aria-labelledby="tell-us-section">
+                <h2 id="tell-us-section" class="section-title">
+                    Tell Us
+                </h2>
+                <form class="form-container">
+                    <div class="form-group">
+                        <label for="name" class="form-label">
+                            Name
+                        </label>
+                        <input id="name" class="form-input" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="description" class="form-label">
+                            Description
+                        </label>
+                        <textarea id="description" class="form-textarea" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="image" class="form-label">
+                            Image
+                        </label>
+                        <input id="image" class="form-input" type="file" />
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Submit
+                    </button>
+                </form>
+            </section>
+
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+<script src="static/js/hambuger.js"></script>
+</html>

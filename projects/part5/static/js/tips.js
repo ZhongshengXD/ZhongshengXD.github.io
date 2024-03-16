@@ -1,5 +1,5 @@
 window.onload = function() {
-    // fetch('/static/tips.json') 
+    // fetch('static/tips.json') 
     fetch('https://zhongshengxd.github.io/projects/part5/static/tips.json')
         .then(response => response.json())
         .then(data => {
@@ -9,7 +9,7 @@ window.onload = function() {
                 article.className = 'article';
 
                 var img = document.createElement('img');
-                img.src = tip.img;
+                img.src = tip.image;
                 img.width = '24';
                 img.height = '24';
                 img.className = 'icon';
@@ -21,12 +21,12 @@ window.onload = function() {
 
                 var h3 = document.createElement('h3');
                 h3.className = 'subtitle';
-                h3.textContent = tip.title;
+                h3.textContent = tip.id + "." + tip.title;
                 content.appendChild(h3);
 
                 var pText = document.createElement('p');
                 pText.className = 'text';
-                pText.textContent = tip.text;
+                pText.textContent = tip.description;
                 content.appendChild(pText);
 
                 var pAuthor = document.createElement('p');

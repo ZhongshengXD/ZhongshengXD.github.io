@@ -1,0 +1,56 @@
+/* 基础样式 */
+
+.title {
+    font-size: 1.5rem;
+    /* 24px */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    /* 16px */
+}
+
+.articles-container {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.article {
+    border: 1px solid #e2e8f0;
+    padding: 1rem;
+    /* 16px */
+    display: flex;
+    gap: 1rem;
+    /* 16px */
+}
+
+.icon {
+    width: 6rem;
+    /* 64px */
+    height: 6rem;
+    /* 64px */
+    background-color: #edf2f7;
+    margin: auto;
+    display: block;
+}
+
+.content {
+    flex: 1;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    /* 18px */
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    /* 8px */
+}
+
+.text {
+    color: #4a5568;
+}
+
+.star {
+    color: gold;
+}

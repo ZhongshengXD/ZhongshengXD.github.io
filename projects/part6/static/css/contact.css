@@ -1,0 +1,59 @@
+/* Section Title */
+.section-title {
+  font-size: 1.5rem; /* 24px */
+  font-weight: bold;
+  margin-bottom: 1rem; /* 16px */
+}
+
+/* Form Container */
+.form-container {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem; /* 16px */
+}
+
+.form-label {
+  margin-bottom: 0.5rem; /* 8px */
+  font-weight: medium;
+  color: #4a5568; /* Tailwind text-gray-700 */
+}
+
+.form-input,
+.form-textarea {
+  border: 1px solid #e2e8f0; /* Tailwind border color */
+  padding: 0.5rem; /* 8px */
+  border-radius: 0.25rem; /* Tailwind rounded */
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #38a169; /* Tailwind bg-green-500 */
+  color: white;
+  padding: 0.5rem 1rem; /* py-2 px-4 */
+  border-radius: 0.25rem; /* Tailwind rounded */
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #2f855a; /* Tailwind hover:bg-green-600 */
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}

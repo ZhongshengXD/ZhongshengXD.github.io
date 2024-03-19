@@ -1,0 +1,147 @@
+.section-title {
+  font-size: 1.5rem; /* 24px */
+  font-weight: bold;
+  margin-bottom: 1rem; /* 16px */
+}
+
+.messages-container {
+  margin-top: 1.5rem;
+}
+
+.message {
+  display: flex;
+  align-items: start;
+  gap: 1rem; /* 16px between star icon and message content */
+}
+
+.star-icon {
+  color: #9ca3af; /* Tailwind text-gray-400 */
+  font-size: 1.5rem; /* 24px, representing h-6 w-6 */
+  line-height: 1; /* Aligns the icon vertically with the text */
+}
+
+.message-content {
+  flex: 1;
+}
+
+.message-author {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  margin-bottom: 0.25rem; /* 4px */
+}
+
+.message-textarea {
+  width: 100%;
+  padding: 0.5rem; /* 8px */
+  border: 1px solid #e2e8f0; /* Tailwind border */
+  border-radius: 0.375rem; /* Tailwind rounded */
+  height: auto; /* Adjust based on content */
+}
+
+#addItemForm {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#addItemForm input,
+#addItemForm button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+#addItemForm button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#addItemForm button:hover {
+  background-color: #0056b3;
+}
+
+#itemDescription {
+  width: 100%;
+  height: 80px;
+}
+
+#message {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2caa67;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+}
+
+
+#itemList li {
+  display: flex;
+}
+
+#itemList .itemNumber,
+#itemList .itemName,
+#itemList .itemDate,
+#itemList .itemEmail,
+#itemList .itemPhone,
+#itemList .itemDescription{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ced4da;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#openModalBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 24px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+#openModalBtn:hover {
+  background-color: #0056b3;
+}

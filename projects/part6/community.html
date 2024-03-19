@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPath</title>
+    <link href="static/css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/community.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>GreenPath</h1>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tips.html">Green Tips</a></li>
+                    <li><a href="community.html">Community Forum</a></li>
+                    <li><a href="product.html" class="ellipsis">Environmentally Friendly Products</a></li>
+                    <li><a href="contact.html">Tell us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="section-title">Community Forum-(Data Entry Form)</h2>
+            <div id="message"></div>
+            <div class="messages-container">
+                <button id="openModalBtn">Create Forum</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <form id="addItemForm">
+                            <input type="number" id="itemNumber" placeholder="Item Number" required min="1" max="9999">
+                            <input type="text" id="itemName" placeholder="Item Name" required
+                                pattern="[A-Za-z0-9\s]{1,20}">
+                            <input type="date" id="itemDate" required min="2022-01-01">
+                            <input type="email" id="itemEmail" placeholder="Email" required>
+                            <input type="tel" id="itemPhone" placeholder="Phone Number" required
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            <textarea id="itemDescription" placeholder="Item Description" required></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <ul id="itemList">
+                    <li>
+                        <div class="itemNumber">id</div>
+                        <div class="itemName">name</div>
+                        <div class="itemDate">date</div>
+                        <div class="itemEmail">email</div>
+                        <div class="itemPhone">phone</div>
+                        <div class="itemDescription">description</div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+
+        <footer class="footer"></footer>
+    </div>
+</body>
+<script src="static/js/hambuger.js"></script>
+<script src="static/js/community.js"></script>
+
+</html>
